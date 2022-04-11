@@ -1,0 +1,64 @@
+[
+{
+  "name":"java.util.ArrayList",
+  "methods":[
+    {"name":"isEmpty","parameterTypes":[]}
+  ]
+},
+{
+  "name":"org.thymeleaf.engine.IterationStatusVar",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.thymeleaf.standard.expression.AdditionExpression",
+  "allDeclaredConstructors":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.thymeleaf.expression.Numbers",
+  "allDeclaredMethods":true
+},
+
+{
+  "name":"com.azure.graalvm.samples.micronaut.MicronautApplication",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "allDeclaredClasses":true
+},
+{
+  "name":"com.azure.graalvm.samples.micronaut.StorageServiceController",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.azure.graalvm.samples.micronaut.storage.StorageItem",
+  "methods":[
+    {"name":"getFileName","parameterTypes":[] },
+    {"name":"getFileSize","parameterTypes":[] }
+  ]
+},
+{
+  "name":"com.azure.graalvm.samples.micronaut.storage.StorageService",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"com.azure.graalvm.samples.micronaut.storage.azure.AzureBlobStorageService",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"deleteFile","parameterTypes":["java.lang.String"] },
+    {"name":"getFile","parameterTypes":["java.lang.String"] },
+    {"name":"init","parameterTypes":[] },
+    {"name":"listAllFiles","parameterTypes":[] },
+    {"name":"store","parameterTypes":["java.lang.String","java.io.InputStream","long"] }
+  ]
+},
+{
+  "name":"com.azure.graalvm.samples.micronaut.storage.azure.AzureStorageItem",
+  "allPublicMethods":true
+}
+]

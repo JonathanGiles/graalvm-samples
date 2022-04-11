@@ -1,0 +1,14 @@
+azure:
+  storage:
+    blob:
+      container-name: ${azure_blob_storage_container_name}
+      connection-string: ${azure_blob_storage_connection_string}
+micronaut:
+  application:
+    name: azureGraalvmSamplesMicronaut
+  router:
+    static-resources:
+      default:
+        enabled: true
+        mapping: "/**"
+        paths: "classpath:public"
